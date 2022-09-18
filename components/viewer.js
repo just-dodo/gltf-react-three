@@ -16,7 +16,11 @@ export default function Viewer({ shadows, contactShadow, autoRotate, environment
   }, [scene, shadows])
 
   return (
-    <Canvas gl={{ preserveDrawingBuffer: true }} shadows dpr={[1, 1.5]} camera={{ position: [0, 0, 150], fov: 50 }}>
+    <Canvas gl={{ preserveDrawingBuffer: true }} shadows dpr={[1, 1.5]} camera={{ position: [0, 0, 150], fov: 20 }}
+    
+    
+                flat
+    >
       <ambientLight intensity={0.25} />
       <Suspense fallback={null}>
         <Stage
