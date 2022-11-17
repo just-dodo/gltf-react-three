@@ -15,7 +15,7 @@
     "gltfjsx": "^5.0.2",
     "jszip": "^3.10.0",
     "leva": "^0.9.29",
-    "next": "12.2.3",
+    "next": "12.2.4",
     "prettier": "^2.7.1",
     "prism-react-renderer": "^1.3.5",
     "react": "^18.2.0",
